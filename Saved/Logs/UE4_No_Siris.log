@@ -2471,3 +2471,109 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.21-10.27.29:876][691]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
 [2022.03.21-10.27.29:876][691]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
 [2022.03.21-10.27.29:997][691]EditorErrors: Warning: No assets to check in!
+[2022.03.21-10.31.46:933][ 78]LogFileManager: Warning: DeleteFile was unable to delete 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2022.03.21-10.31.47:280][ 79]LogFileManager: Warning: DeleteFile recovered during retry!
+[2022.03.21-10.32.41:272][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.03.21-10.32.42:241][330]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.21-10.32.42:245][330]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.03.21-10.32.42:247][330]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.03.21-10.32.42:330][330]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2022.03.21-10.32.42:336][330]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2022.03.21-10.32.42:336][330]PIE: New page: PIE session: LVL_Proto (21 mars 2022 à 12:32:42)
+[2022.03.21-10.32.42:359][330]LogPlayLevel: Creating play world package: /Game/Game/Level/UEDPIE_0_LVL_Proto
+[2022.03.21-10.32.42:361][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001705s)
+[2022.03.21-10.32.42:361][330]LogAIModule: Creating AISystem for world LVL_Proto
+[2022.03.21-10.32.42:362][330]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2022.03.21-10.32.42:362][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Level/LVL_Proto.LVL_Proto to /Game/Game/Level/UEDPIE_0_LVL_Proto.LVL_Proto (0.002768s)
+[2022.03.21-10.32.42:388][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.03.21-10.32.42:388][330]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.21-10.32.42:388][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.21-10.32.42:388][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.21-10.32.42:389][330]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.21-10.32.42:389][330]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.21-10.32.42:389][330]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.21-10.32.42:389][330]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.21-10.32.42:392][330]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.21-10.32.42:392][330]LogAudioMixer: Display: 1: FrontRight
+[2022.03.21-10.32.42:400][330]LogAudioMixer: Display: Using Audio Device DELL S2340L (NVIDIA High Definition Audio)
+[2022.03.21-10.32.42:400][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.21-10.32.42:400][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.21-10.32.42:400][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.21-10.32.42:400][330]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.21-10.32.42:400][330]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.21-10.32.42:400][330]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.21-10.32.42:402][330]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.21-10.32.42:402][330]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.21-10.32.42:402][330]LogInit: FAudioDevice initialized.
+[2022.03.21-10.32.42:402][330]LogAudio: Display: Audio Device (ID: 23) registered with world 'LVL_Proto'.
+[2022.03.21-10.32.42:410][330]LogLoad: Game class is 'GameModeBase'
+[2022.03.21-10.32.42:412][330]LogWorld: Bringing World /Game/Game/Level/UEDPIE_0_LVL_Proto.LVL_Proto up for play (max tick rate 0) at 2022.03.21-11.32.42
+[2022.03.21-10.32.42:412][330]LogWorld: Bringing up level for play took: 0.000900
+[2022.03.21-10.32.42:412][330]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.03.21-10.32.42:413][330]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'ArrayBool' of length 1 in '/Game/Game/Blueprint/BP_Recepteur.BP_Recepteur_C'!
+[2022.03.21-10.32.42:414][330]LogBlueprintUserMessages: [BP_Recepteur_2] false
+[2022.03.21-10.32.42:414][330]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'ArrayBool' of length 2 in '/Game/Game/Blueprint/BP_Recepteur.BP_Recepteur_C'!
+[2022.03.21-10.32.42:414][330]LogBlueprintUserMessages: [BP_Recepteur_2] false
+[2022.03.21-10.32.42:414][330]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'ArrayBool' of length 3 in '/Game/Game/Blueprint/BP_Recepteur.BP_Recepteur_C'!
+[2022.03.21-10.32.42:414][330]LogBlueprintUserMessages: [BP_Recepteur_2] false
+[2022.03.21-10.32.42:414][330]PIE: Server logged in
+[2022.03.21-10.32.42:415][330]PIE: Play in editor total start time 0,17 seconds.
+[2022.03.21-10.32.43:948][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.03.21-10.32.43:953][495]LogSavePackage: Moving 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris/Saved/LVL_Proto69CFBF014DF4CAFF24AC47A909D8C14B.tmp' to 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris/Content/Game/Level/LVL_Proto.umap'
+[2022.03.21-10.32.43:959][495]LogFileHelpers: Saving map 'LVL_Proto' took 0.038
+[2022.03.21-10.32.43:966][495]AssetCheck: New page: Asset Save: LVL_Proto
+[2022.03.21-10.32.43:966][495]LogContentValidation: Display: Validating World /Game/Game/Level/LVL_Proto.LVL_Proto
+[2022.03.21-10.32.47:401][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-10.32.47:401][901]LogWorld: BeginTearingDown for /Game/Game/Level/UEDPIE_0_LVL_Proto
+[2022.03.21-10.32.47:402][901]LogWorld: UWorld::CleanupWorld for LVL_Proto, bSessionEnded=true, bCleanupResources=true
+[2022.03.21-10.32.47:402][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-10.32.47:419][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.21-10.32.47:448][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-10.32.47:473][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-10.32.47:473][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-10.32.47:474][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-10.32.47:478][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.03.21-10.32.47:506][902]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.03.21-10.32.47:652][917]Cmd: SELECT NONE
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Content: 'C:/Unreal/UE_4.27/Engine/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:252][299]SourceControl: fatal: C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Unreal/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris'
+[2022.03.21-10.32.51:487][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.03.21-10.32.51:493][299]LogSavePackage: Moving 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris/Saved/LVL_ProtoFEFF6BA4454B7E6A56644B8CD5906072.tmp' to 'D:/GAME2-INT/NOIREL Dorian/Unreal Project/WS_LevelBuilding_NOsiris/Content/Game/Level/LVL_Proto.umap'
+[2022.03.21-10.32.51:499][299]LogFileHelpers: Saving map 'LVL_Proto' took 0.038
+[2022.03.21-10.32.55:421][299]LogSlate: Window 'Submit Files' being destroyed
+[2022.03.21-10.32.55:878][299]LogSourceControl: commit successful: [main 5d3d048] oio
+[2022.03.21-10.32.55:911][299]SourceControl: [main 5d3d048] oio
+[2022.03.21-10.32.55:911][299]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2022.03.21-10.32.55:917][299]SourceControl: Commited [main 5d3d048] oio.
+[2022.03.21-10.32.55:935][300]AssetCheck: New page: Asset Save: LVL_Proto
+[2022.03.21-10.32.55:935][300]LogContentValidation: Display: Validating World /Game/Game/Level/LVL_Proto.LVL_Proto
