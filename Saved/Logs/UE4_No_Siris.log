@@ -984,3 +984,451 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.21-09.23.16:418][540]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
 [2022.03.21-09.23.16:418][540]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
 [2022.03.21-09.23.16:502][540]EditorErrors: Warning: No assets to check in!
+[2022.03.21-09.24.57:687][328]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.03.21-09.25.29:103][784]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Game/Asset/Anim/Running.Running
+[2022.03.21-09.25.29:103][784]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Game/Asset/Anim/Jump.Jump
+[2022.03.21-09.25.29:103][784]LogTexture: Display: Building textures: Kachujin_specular (OODLE_AutoDXT, 2048X2048)
+[2022.03.21-09.25.29:103][784]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.21-09.25.29:103][784]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.03.21-09.25.29:103][784]LogTexture: Display: Building textures: Kachujin_normal (OODLE_BC5, 2048X2048)
+[2022.03.21-09.25.29:103][784]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.03.21-09.25.29:103][784]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.03.21-09.25.29:103][784]LogTexture: Display: Building textures: Kachujin_diffuse (OODLE_AutoDXT, 2048X2048)
+[2022.03.21-09.25.29:103][784]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.21-09.25.29:103][784]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.03.21-09.25.29:103][784]LogMaterial: Display: Missing cached shadermap for kachujin_MAT in PCD3D_SM5, Default, SM5 (DDC key hash: 952B6F1DA1E609FD9CF8343461619256EF1A837F), compiling. 
+[2022.03.21-09.25.29:170][784]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.03.21-09.25.29:175][784]LogSkeletalMesh: Building Skeletal Mesh kachujin_g_rosales...
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 32
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.03.21-09.25.29:183][784]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.03.21-09.25.29:549][784]LogSkeletalMesh: Section 0: Material=0, 12610 triangles
+[2022.03.21-09.25.29:601][784]LogSkeletalMesh: Built Skeletal Mesh [0.41s] /Game/Game/Asset/PlayerMesh/kachujin_g_rosales.kachujin_g_rosales
+[2022.03.21-09.25.29:691][785]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Game/Asset/Anim/Idle.Idle
+[2022.03.21-09.25.29:691][785]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Game/Asset/Anim/Fall.Fall
+[2022.03.21-09.25.30:036][787]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Game/Asset/Anim/Dwarf_Walk.Dwarf_Walk
+[2022.03.21-09.25.30:057][789]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.21-09.25.30:057][789]LogShaderCompilers: Display: Total job queries 32, among them cache hits 0 (0.00%)
+[2022.03.21-09.25.30:057][789]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.03.21-09.25.30:057][789]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.03.21-09.25.30:057][789]LogShaderCompilers: Display: ================================================
+[2022.03.21-09.25.30:077][792]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Game/Asset/Anim/Fall_A_Land_To_Standing_Idle_01.Fall_A_Land_To_Standing_Idle_01
+[2022.03.21-09.25.32:303][ 17]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.21-09.25.36:001][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.25.36:423][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UE4_mannequin)
+[2022.03.21-09.25.38:416][733]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2022.03.21-09.25.42:388][200]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.21-09.25.43:222][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UE4_mannequin)
+[2022.03.21-09.25.45:901][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_STRAIGHT_L400xW25xH400_01_A9)
+[2022.03.21-09.25.46:661][698]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2022.03.21-09.25.50:023][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UE4_mannequin)
+[2022.03.21-09.25.50:719][171]Cmd: DELETE
+[2022.03.21-09.25.50:719][171]Cmd: ACTOR DELETE
+[2022.03.21-09.25.50:720][171]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.21-09.25.50:728][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.03.21-09.25.50:729][171]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2022.03.21-09.25.51:242][233]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2022.03.21-09.25.54:242][571]LogRenderer: Reallocating scene render targets to support 832x564 Format 10 NumSamples 1 (Frame:7179).
+[2022.03.21-09.25.54:302][573]LogRenderer: Reallocating scene render targets to support 852x564 Format 10 NumSamples 1 (Frame:7183).
+[2022.03.21-09.25.54:333][573]LogRenderer: Reallocating scene render targets to support 868x564 Format 10 NumSamples 1 (Frame:7185).
+[2022.03.21-09.25.54:375][574]LogRenderer: Reallocating scene render targets to support 892x564 Format 10 NumSamples 1 (Frame:7189).
+[2022.03.21-09.25.54:414][575]LogRenderer: Reallocating scene render targets to support 904x564 Format 10 NumSamples 1 (Frame:7193).
+[2022.03.21-09.25.54:452][576]LogRenderer: Reallocating scene render targets to support 912x564 Format 10 NumSamples 1 (Frame:7197).
+[2022.03.21-09.25.54:489][577]LogRenderer: Reallocating scene render targets to support 924x564 Format 10 NumSamples 1 (Frame:7201).
+[2022.03.21-09.25.54:526][578]LogRenderer: Reallocating scene render targets to support 952x564 Format 10 NumSamples 1 (Frame:7205).
+[2022.03.21-09.25.54:561][579]LogRenderer: Reallocating scene render targets to support 976x564 Format 10 NumSamples 1 (Frame:7209).
+[2022.03.21-09.25.54:601][580]LogRenderer: Reallocating scene render targets to support 1008x564 Format 10 NumSamples 1 (Frame:7213).
+[2022.03.21-09.25.54:642][581]LogRenderer: Reallocating scene render targets to support 1016x564 Format 10 NumSamples 1 (Frame:7217).
+[2022.03.21-09.25.58:272][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.21-09.25.58:282][985]PIE: New page: PIE session: LVL_Level2 (21 mars 2022 à 11:25:58)
+[2022.03.21-09.25.58:295][985]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.03.21-09.25.58:304][985]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.03.21-09.25.58:313][985]LogPlayLevel: Creating play world package: /Game/Game/Level/UEDPIE_0_LVL_Level2
+[2022.03.21-09.25.58:323][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009264s)
+[2022.03.21-09.25.58:325][985]LogAIModule: Creating AISystem for world LVL_Level2
+[2022.03.21-09.25.58:325][985]LogPlayLevel: PIE: World Init took: (0.002715s)
+[2022.03.21-09.25.58:326][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Level/LVL_Level2.LVL_Level2 to /Game/Game/Level/UEDPIE_0_LVL_Level2.LVL_Level2 (0.012439s)
+[2022.03.21-09.25.58:335][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.21-09.25.58:336][985]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.21-09.25.58:336][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.21-09.25.58:336][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.21-09.25.58:337][985]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.21-09.25.58:337][985]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.21-09.25.58:337][985]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.21-09.25.58:337][985]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.21-09.25.58:338][985]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.03.21-09.25.58:338][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.21-09.25.58:338][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.21-09.25.58:338][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.21-09.25.58:338][985]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.21-09.25.58:338][985]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.21-09.25.58:338][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.21-09.25.58:339][985]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.21-09.25.58:339][985]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.03.21-09.25.58:340][985]LogInit: FAudioDevice initialized.
+[2022.03.21-09.25.58:340][985]LogAudio: Display: Audio Device (ID: 2) registered with world 'LVL_Level2'.
+[2022.03.21-09.25.58:350][985]LogLoad: Game class is 'GameModeBase'
+[2022.03.21-09.25.58:362][985]LogWorld: Bringing World /Game/Game/Level/UEDPIE_0_LVL_Level2.LVL_Level2 up for play (max tick rate 0) at 2022.03.21-10.25.58
+[2022.03.21-09.25.58:372][985]LogWorld: Bringing up level for play took: 0.011813
+[2022.03.21-09.25.58:372][985]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.03.21-09.25.58:398][985]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.03.21-09.25.58:400][985]PIE: Server logged in
+[2022.03.21-09.25.58:408][985]PIE: Play in editor total start time 0,143 seconds.
+[2022.03.21-09.26.01:329][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-09.26.01:329][317]LogWorld: BeginTearingDown for /Game/Game/Level/UEDPIE_0_LVL_Level2
+[2022.03.21-09.26.01:330][317]LogWorld: UWorld::CleanupWorld for LVL_Level2, bSessionEnded=true, bCleanupResources=true
+[2022.03.21-09.26.01:331][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.26.01:345][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.21-09.26.01:397][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.26.01:401][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-09.26.01:401][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-09.26.01:402][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-09.26.01:402][317]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.03.21-09.26.01:417][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.03.21-09.26.01:458][318]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.03.21-09.26.24:141][943]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.21-09.26.24:145][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.21-09.26.24:145][943]PIE: New page: PIE session: LVL_Level2 (21 mars 2022 à 11:26:24)
+[2022.03.21-09.26.24:168][943]LogPlayLevel: Creating play world package: /Game/Game/Level/UEDPIE_0_LVL_Level2
+[2022.03.21-09.26.24:171][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003572s)
+[2022.03.21-09.26.24:172][943]LogAIModule: Creating AISystem for world LVL_Level2
+[2022.03.21-09.26.24:172][943]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2022.03.21-09.26.24:172][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Level/LVL_Level2.LVL_Level2 to /Game/Game/Level/UEDPIE_0_LVL_Level2.LVL_Level2 (0.004717s)
+[2022.03.21-09.26.24:178][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.03.21-09.26.24:179][943]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.21-09.26.24:180][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.21-09.26.24:180][943]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.21-09.26.24:180][943]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.21-09.26.24:180][943]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.21-09.26.24:180][943]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.21-09.26.24:181][943]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.03.21-09.26.24:182][943]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.21-09.26.24:182][943]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.21-09.26.24:182][943]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.21-09.26.24:182][943]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.21-09.26.24:182][943]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.21-09.26.24:182][943]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.21-09.26.24:183][943]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.21-09.26.24:183][943]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.03.21-09.26.24:184][943]LogInit: FAudioDevice initialized.
+[2022.03.21-09.26.24:184][943]LogAudio: Display: Audio Device (ID: 3) registered with world 'LVL_Level2'.
+[2022.03.21-09.26.24:202][943]LogLoad: Game class is 'GameModeBase'
+[2022.03.21-09.26.24:210][943]LogWorld: Bringing World /Game/Game/Level/UEDPIE_0_LVL_Level2.LVL_Level2 up for play (max tick rate 0) at 2022.03.21-10.26.24
+[2022.03.21-09.26.24:210][943]LogWorld: Bringing up level for play took: 0.005626
+[2022.03.21-09.26.24:210][943]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.03.21-09.26.24:214][943]PIE: Server logged in
+[2022.03.21-09.26.24:215][943]PIE: Play in editor total start time 0,071 seconds.
+[2022.03.21-09.26.39:204][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-09.26.39:204][735]LogWorld: BeginTearingDown for /Game/Game/Level/UEDPIE_0_LVL_Level2
+[2022.03.21-09.26.39:205][735]LogWorld: UWorld::CleanupWorld for LVL_Level2, bSessionEnded=true, bCleanupResources=true
+[2022.03.21-09.26.39:206][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.26.39:221][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.21-09.26.39:270][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.26.39:275][735]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.21-09.26.39:309][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-09.26.39:311][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-09.26.39:311][735]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.03.21-09.26.39:332][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-09.26.39:337][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.03.21-09.26.39:384][736]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.03.21-09.26.51:109][913]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_DOOR-ROUNDED_L400xW25xH400_01.GB_DOOR-ROUNDED_L400xW25xH400_01
+[2022.03.21-09.26.51:282][913]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.03.21-09.26.51:412][913]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.03.21-09.26.51:923][913]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2022.03.21-09.27.09:787][367]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_DOOR-ROUNDED_L400xW25xH400_0123A6859244AC8F6B05B014B5E4779D7D.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_DOOR-ROUNDED_L400xW25xH400_01.uasset'
+[2022.03.21-09.27.09:799][367]AssetCheck: New page: Asset Save: GB_DOOR-ROUNDED_L400xW25xH400_01
+[2022.03.21-09.27.09:799][367]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_DOOR-ROUNDED_L400xW25xH400_01.GB_DOOR-ROUNDED_L400xW25xH400_01
+[2022.03.21-09.27.10:536][425]LogSlate: Window 'GB_DOOR-ROUNDED_L400xW25xH400_01' being destroyed
+[2022.03.21-09.27.10:589][425]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.21-09.27.10:589][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.27.12:802][663]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.21-09.27.12:806][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.21-09.27.12:806][663]PIE: New page: PIE session: LVL_Level2 (21 mars 2022 à 11:27:12)
+[2022.03.21-09.27.12:829][663]LogPlayLevel: Creating play world package: /Game/Game/Level/UEDPIE_0_LVL_Level2
+[2022.03.21-09.27.12:832][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003373s)
+[2022.03.21-09.27.12:833][663]LogAIModule: Creating AISystem for world LVL_Level2
+[2022.03.21-09.27.12:833][663]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2022.03.21-09.27.12:833][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Level/LVL_Level2.LVL_Level2 to /Game/Game/Level/UEDPIE_0_LVL_Level2.LVL_Level2 (0.004568s)
+[2022.03.21-09.27.12:841][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.03.21-09.27.12:843][663]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.21-09.27.12:843][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.21-09.27.12:843][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.21-09.27.12:844][663]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.21-09.27.12:844][663]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.21-09.27.12:844][663]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.21-09.27.12:844][663]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.21-09.27.12:845][663]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.03.21-09.27.12:845][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.21-09.27.12:845][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.21-09.27.12:845][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.21-09.27.12:845][663]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.21-09.27.12:845][663]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.21-09.27.12:845][663]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.21-09.27.12:847][663]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.21-09.27.12:847][663]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.03.21-09.27.12:847][663]LogInit: FAudioDevice initialized.
+[2022.03.21-09.27.12:847][663]LogAudio: Display: Audio Device (ID: 4) registered with world 'LVL_Level2'.
+[2022.03.21-09.27.12:855][663]LogLoad: Game class is 'GameModeBase'
+[2022.03.21-09.27.12:858][663]LogWorld: Bringing World /Game/Game/Level/UEDPIE_0_LVL_Level2.LVL_Level2 up for play (max tick rate 0) at 2022.03.21-10.27.12
+[2022.03.21-09.27.12:858][663]LogWorld: Bringing up level for play took: 0.001735
+[2022.03.21-09.27.12:858][663]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.03.21-09.27.12:860][663]PIE: Server logged in
+[2022.03.21-09.27.12:861][663]PIE: Play in editor total start time 0,055 seconds.
+[2022.03.21-09.27.46:919][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-09.27.46:920][739]LogWorld: BeginTearingDown for /Game/Game/Level/UEDPIE_0_LVL_Level2
+[2022.03.21-09.27.46:920][739]LogWorld: UWorld::CleanupWorld for LVL_Level2, bSessionEnded=true, bCleanupResources=true
+[2022.03.21-09.27.46:921][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.27.46:939][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.21-09.27.46:970][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.21-09.27.46:975][739]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.21-09.27.46:975][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-09.27.46:976][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.21-09.27.46:976][739]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.03.21-09.27.46:983][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.21-09.27.46:985][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.03.21-09.27.47:022][740]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.03.21-09.27.49:777][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.03.21-09.27.49:787][ 54]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/LVL_Level22CADE6A1439BC4A6F7E734816CF4C387.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Level/LVL_Level2.umap'
+[2022.03.21-09.27.49:802][ 54]AssetCheck: New page: Asset Save: LVL_Level2
+[2022.03.21-09.27.49:802][ 54]LogContentValidation: Display: Validating World /Game/Game/Level/LVL_Level2.LVL_Level2
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Content: 'D:/UE_4.27/Engine/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'D:/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:066][813]SourceControl: fatal: D:/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris'
+[2022.03.21-09.27.57:272][813]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_DOOR-ROUNDED_L400xW25xH400_015DCC108543575334BA8B71BE5E2EA517.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_DOOR-ROUNDED_L400xW25xH400_01.uasset'
+[2022.03.21-09.27.57:277][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.03.21-09.27.57:288][813]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/LVL_Level2CAC4CA7748692345CF7937B8D03B56FA.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Level/LVL_Level2.umap'
+[2022.03.21-09.27.57:294][813]LogFileHelpers: Saving map 'LVL_Level2' took 0.022
+[2022.03.21-09.28.03:859][813]LogSlate: Window 'Submit Files' being destroyed
+[2022.03.21-09.28.04:336][813]LogSourceControl: commit successful: [main dba1ac3] newHitbox
+[2022.03.21-09.28.04:413][813]SourceControl: [main dba1ac3] newHitbox
+[2022.03.21-09.28.04:413][813]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2022.03.21-09.28.04:413][813]SourceControl:  rewrite Content/Game/Asset/1_GA/GM_SMesh/GB_DOOR-ROUNDED_L400xW25xH400_01.uasset (91%)
+[2022.03.21-09.28.04:413][813]SourceControl:  rewrite Content/Game/Level/LVL_Level2.umap (80%)
+[2022.03.21-09.28.04:418][813]SourceControl: Commited [main dba1ac3] newHitbox.
+[2022.03.21-09.28.04:454][814]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.21-09.28.04:454][814]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_DOOR-ROUNDED_L400xW25xH400_01.GB_DOOR-ROUNDED_L400xW25xH400_01
+[2022.03.21-09.28.04:454][814]LogContentValidation: Display: Validating World /Game/Game/Level/LVL_Level2.LVL_Level2
+[2022.03.21-09.29.37:040][ 14]LogActorFactory: Actor Factory created GB_P_Sign_GB_P_Sign
+[2022.03.21-09.29.37:928][112]LogActorFactory: Actor Factory created GB_P_Sign_GB_P_Sign
+[2022.03.21-09.29.38:044][121]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.21-09.29.40:335][395]Cmd: TRANSACTION UNDO
+[2022.03.21-09.29.40:335][395]LogEditorTransaction: Undo Create Actors
+[2022.03.21-09.31.07:895][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_STRAIGHT_L400xW25xH400_01_A17)
+[2022.03.21-09.31.08:649][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_STRAIGHT_L400xW25xH400_01_A16)
+[2022.03.21-09.31.09:395][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_9)
+[2022.03.21-09.31.30:629][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_9)
+[2022.03.21-09.33.05:348][953]LogEditorFactories: Performing atomic reimport of [C:/Users/etudiant/Downloads/drive-download-20220321T093232Z-001/GB_FLOOR_TATAMI_L400xW200xH25_01_A.fbx]
+[2022.03.21-09.33.05:377][953]LogFbx: Loading FBX Scene from C:/Users/etudiant/Downloads/drive-download-20220321T093232Z-001/GB_FLOOR_TATAMI_L400xW200xH25_01_A.fbx
+[2022.03.21-09.33.05:381][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.05:382][953]LogStaticMesh: Building static mesh GB_FLOOR_TATAMI_L400xW200xH25_01_A...
+[2022.03.21-09.33.05:403][953]LogStaticMesh: Built static mesh [0.02s] /Engine/Transient.GB_FLOOR_TATAMI_L400xW200xH25_01_A
+[2022.03.21-09.33.05:423][953]LogFbx: Display: Triangulating static mesh GB_FLOOR_TATAMI_L400xW200xH25_01_A
+[2022.03.21-09.33.05:436][953]LogStaticMesh: Building static mesh GB_FLOOR_TATAMI_L400xW200xH25_01_A...
+[2022.03.21-09.33.05:437][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_FLOOR_TATAMI_L400xW200xH25_01_A.GB_FLOOR_TATAMI_L400xW200xH25_01_A
+[2022.03.21-09.33.05:437][953]LogStaticMesh: Warning: GB_FLOOR_TATAMI_L400xW200xH25_01_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.03.21-09.33.05:437][953]LogStaticMesh: Warning: GB_FLOOR_TATAMI_L400xW200xH25_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.05:441][953]LogEditorFactories: -- imported successfully
+[2022.03.21-09.33.05:443][953]FBXImport: Warning: GB_FLOOR_TATAMI_L400xW200xH25_01_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.03.21-09.33.05:444][953]FBXImport: Warning: GB_FLOOR_TATAMI_L400xW200xH25_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.05:661][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_STAIRS_STRAIGHT_L350xW400xH200_01_A.fbx)
+[2022.03.21-09.33.05:703][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_STAIRS_STRAIGHT_L350xW400xH200_01_A.fbx
+[2022.03.21-09.33.05:708][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:059][953]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.21-09.33.08:079][953]LogFbx: Display: Triangulating static mesh GB_STAIRS_STRAIGHT_L350xW400xH200_01_A
+[2022.03.21-09.33.08:080][953]LogStaticMesh: Building static mesh GB_STAIRS_STRAIGHT_L350xW400xH200_01_A...
+[2022.03.21-09.33.08:082][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_STAIRS_STRAIGHT_L350xW400xH200_01_A.GB_STAIRS_STRAIGHT_L350xW400xH200_01_A
+[2022.03.21-09.33.08:150][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_STAIRS_STRAIGHT_L400xW400xH200_01_A.fbx)
+[2022.03.21-09.33.08:187][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_STAIRS_STRAIGHT_L400xW400xH200_01_A.fbx
+[2022.03.21-09.33.08:192][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:192][953]LogFbx: Display: Triangulating static mesh GB_STAIRS_STRAIGHT_L400xW400xH200_01_A
+[2022.03.21-09.33.08:193][953]LogStaticMesh: Building static mesh GB_STAIRS_STRAIGHT_L400xW400xH200_01_A...
+[2022.03.21-09.33.08:195][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_STAIRS_STRAIGHT_L400xW400xH200_01_A.GB_STAIRS_STRAIGHT_L400xW400xH200_01_A
+[2022.03.21-09.33.08:267][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A.fbx)
+[2022.03.21-09.33.08:274][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A.fbx
+[2022.03.21-09.33.08:279][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:280][953]LogFbx: Display: Triangulating static mesh GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_A
+[2022.03.21-09.33.08:281][953]LogStaticMesh: Building static mesh GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A...
+[2022.03.21-09.33.08:281][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A.GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A
+[2022.03.21-09.33.08:281][953]LogStaticMesh: Warning: GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.03.21-09.33.08:281][953]LogStaticMesh: Warning: GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.08:285][953]FBXImport: Warning: GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.03.21-09.33.08:286][953]FBXImport: Warning: GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.08:401][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B.fbx)
+[2022.03.21-09.33.08:409][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B.fbx
+[2022.03.21-09.33.08:413][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:414][953]LogFbx: Display: Triangulating static mesh GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B
+[2022.03.21-09.33.08:416][953]LogStaticMesh: Building static mesh GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B...
+[2022.03.21-09.33.08:416][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B.GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B
+[2022.03.21-09.33.08:416][953]LogStaticMesh: Warning: GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.08:420][953]FBXImport: Warning: GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.08:484][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A.fbx)
+[2022.03.21-09.33.08:491][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A.fbx
+[2022.03.21-09.33.08:496][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:497][953]LogFbx: Display: Triangulating static mesh GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A
+[2022.03.21-09.33.08:498][953]LogStaticMesh: Building static mesh GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A...
+[2022.03.21-09.33.08:498][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A.GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A
+[2022.03.21-09.33.08:499][953]LogStaticMesh: Warning: GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.08:503][953]FBXImport: Warning: GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.08:572][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B.fbx)
+[2022.03.21-09.33.08:580][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B.fbx
+[2022.03.21-09.33.08:585][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:586][953]LogFbx: Display: Triangulating static mesh GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B
+[2022.03.21-09.33.08:587][953]LogStaticMesh: Building static mesh GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B...
+[2022.03.21-09.33.08:587][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B.GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B
+[2022.03.21-09.33.08:587][953]LogStaticMesh: Warning: GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.08:592][953]FBXImport: Warning: GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.08:651][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_DIAGONAL_L400xW25xH400_01_A.fbx)
+[2022.03.21-09.33.08:659][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_DIAGONAL_L400xW25xH400_01_A.fbx
+[2022.03.21-09.33.08:664][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:665][953]LogFbx: Display: Triangulating static mesh GB_WALL_DIAGONAL_L400xW400xH400_01_A
+[2022.03.21-09.33.08:666][953]LogStaticMesh: Building static mesh GB_WALL_DIAGONAL_L400xW25xH400_01_A...
+[2022.03.21-09.33.08:666][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_DIAGONAL_L400xW25xH400_01_A.GB_WALL_DIAGONAL_L400xW25xH400_01_A
+[2022.03.21-09.33.08:734][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_DIAGONAL_L400xW25xH400_01_B.fbx)
+[2022.03.21-09.33.08:742][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_DIAGONAL_L400xW25xH400_01_B.fbx
+[2022.03.21-09.33.08:747][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:748][953]LogFbx: Display: Triangulating static mesh GB_WALL_DIAGONAL_L400xW400xH400_01_B
+[2022.03.21-09.33.08:748][953]LogStaticMesh: Building static mesh GB_WALL_DIAGONAL_L400xW25xH400_01_B...
+[2022.03.21-09.33.08:749][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_DIAGONAL_L400xW25xH400_01_B.GB_WALL_DIAGONAL_L400xW25xH400_01_B
+[2022.03.21-09.33.08:816][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_GROUND_L400xW25xH400_01_A.fbx)
+[2022.03.21-09.33.08:823][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_GROUND_L400xW25xH400_01_A.fbx
+[2022.03.21-09.33.08:828][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:829][953]LogFbx: Display: Triangulating static mesh GB_WALL_L-GROUND_L400xW400xH400_01_A
+[2022.03.21-09.33.08:829][953]LogStaticMesh: Building static mesh GB_WALL_GROUND_L400xW25xH400_01_A...
+[2022.03.21-09.33.08:830][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_GROUND_L400xW25xH400_01_A.GB_WALL_GROUND_L400xW25xH400_01_A
+[2022.03.21-09.33.08:830][953]LogStaticMesh: Warning: GB_WALL_GROUND_L400xW25xH400_01_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.03.21-09.33.08:830][953]LogStaticMesh: Warning: GB_WALL_GROUND_L400xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.08:834][953]FBXImport: Warning: GB_WALL_GROUND_L400xW25xH400_01_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.03.21-09.33.08:834][953]FBXImport: Warning: GB_WALL_GROUND_L400xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.08:906][953]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ROOF_L400xW25xH400_01_A.fbx)
+[2022.03.21-09.33.08:913][953]LogFbx: Loading FBX Scene from C:\Users\etudiant\Downloads\drive-download-20220321T093232Z-001\GB_WALL_ROOF_L400xW25xH400_01_A.fbx
+[2022.03.21-09.33.08:918][953]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.21-09.33.08:919][953]LogFbx: Display: Triangulating static mesh GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B
+[2022.03.21-09.33.08:920][953]LogStaticMesh: Building static mesh GB_WALL_ROOF_L400xW25xH400_01_A...
+[2022.03.21-09.33.08:920][953]LogStaticMesh: Built static mesh [0.00s] /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ROOF_L400xW25xH400_01_A.GB_WALL_ROOF_L400xW25xH400_01_A
+[2022.03.21-09.33.08:921][953]LogStaticMesh: Warning: GB_WALL_ROOF_L400xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.21-09.33.08:925][953]FBXImport: Warning: GB_WALL_ROOF_L400xW25xH400_01_A has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.21-09.33.10:139][ 77]LogSlate: Window 'Message Log' being destroyed
+[2022.03.21-09.33.10:144][ 77]LogSlate: Window 'Message Log' being destroyed
+[2022.03.21-09.33.14:012][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.33.15:124][632]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B3)
+[2022.03.21-09.33.15:604][686]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_A)
+[2022.03.21-09.33.16:307][767]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B2)
+[2022.03.21-09.33.16:954][841]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_A2)
+[2022.03.21-09.33.17:484][901]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B3)
+[2022.03.21-09.33.18:595][ 31]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B)
+[2022.03.21-09.33.20:103][208]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_A3)
+[2022.03.21-09.34.18:879][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_STRAIGHT_L400xW25xH400_01_A16)
+[2022.03.21-09.34.31:933][556]Cmd: TRANSACTION UNDO
+[2022.03.21-09.34.31:933][556]LogEditorTransaction: Undo Move Actors
+[2022.03.21-09.34.37:435][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_9)
+[2022.03.21-09.34.39:093][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_7)
+[2022.03.21-09.34.40:783][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_9)
+[2022.03.21-09.34.41:656][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_7)
+[2022.03.21-09.34.42:521][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_9)
+[2022.03.21-09.34.46:590][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_STRAIGHT_L400xW25xH400_01_A16)
+[2022.03.21-09.34.47:943][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_CORNER-OUTER-SMALL_L400xW25xH400_01_ROOM_9)
+[2022.03.21-09.35.12:133][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.35.19:904][199]Cmd: DELETE
+[2022.03.21-09.35.19:904][199]Cmd: ACTOR DELETE
+[2022.03.21-09.35.19:906][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.21-09.35.19:912][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.03.21-09.35.19:916][199]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2022.03.21-09.35.46:387][165]LogActorFactory: Actor Factory created GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B
+[2022.03.21-09.35.58:713][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B)
+[2022.03.21-09.36.04:362][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B2)
+[2022.03.21-09.36.06:323][528]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.21-09.36.08:125][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.36.08:454][769]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.21-09.36.10:902][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.36.11:485][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.36.22:615][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE_L800xW400xH400_01_B2)
+[2022.03.21-09.36.24:148][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.36.29:720][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.36.34:243][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B3)
+[2022.03.21-09.36.38:229][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.36.38:914][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B3)
+[2022.03.21-09.36.40:559][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.36.43:002][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B3)
+[2022.03.21-09.36.50:129][574]Cmd: TRANSACTION UNDO
+[2022.03.21-09.36.50:129][574]LogEditorTransaction: Undo Move Actors
+[2022.03.21-09.36.55:619][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.36.56:145][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_B3)
+[2022.03.21-09.36.56:939][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.36.57:464][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.37.03:413][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.37.04:030][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GB_WALL_L-ANGLE-OCTOGONE-SHORT_L800xW400xH400_01_A)
+[2022.03.21-09.37.14:647][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.03.21-09.37.17:279][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.21-09.37.17:292][707]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/LVL_Level2DA4BA07F479606939C0BD49A9B714558.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Level/LVL_Level2.umap'
+[2022.03.21-09.37.17:305][707]AssetCheck: New page: Asset Save: LVL_Level2
+[2022.03.21-09.37.17:305][707]LogContentValidation: Display: Validating World /Game/Game/Level/LVL_Level2.LVL_Level2
+[2022.03.21-09.37.31:284][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_FLOOR_TATAMI_L400xW200xH25_01F7A00E234FEE12A4A6310E957CC6E0ED.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_FLOOR_TATAMI_L400xW200xH25_01_A.uasset'
+[2022.03.21-09.37.31:298][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_STAIRS_STRAIGHT_L350xW400xH206B87349441C5B8646DF83FB96615684B.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_STAIRS_STRAIGHT_L350xW400xH200_01_A.uasset'
+[2022.03.21-09.37.31:456][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_STAIRS_STRAIGHT_L400xW400xH20C9C36918425124A5B2BBEA92E26C78A1.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_STAIRS_STRAIGHT_L400xW400xH200_01_A.uasset'
+[2022.03.21-09.37.31:619][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_ANGLE-OCTOGONE_L800xW25x42133C7B4DFB7619991DBFA33F2E7E95.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A.uasset'
+[2022.03.21-09.37.31:777][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_ANGLE-OCTOGONE_L800xW25x2BCC30F540AFEC50AC1A72BFDCE2787A.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B.uasset'
+[2022.03.21-09.37.31:947][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_ANGLE-OCTOGONE-SHORT_L80780FF63F42EF3E0CA3F76A968D4A3DED.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A.uasset'
+[2022.03.21-09.37.32:123][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_ANGLE-OCTOGONE-SHORT_L8005A389E14C5C6F77A8AD2BB96859D605.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B.uasset'
+[2022.03.21-09.37.32:285][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_DIAGONAL_L400xW25xH400_06C8922B8463C8A5CE4C039AA03D398D6.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_DIAGONAL_L400xW25xH400_01_A.uasset'
+[2022.03.21-09.37.32:455][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_DIAGONAL_L400xW25xH400_0EE410EE04D674DA67FA911BE8EC1F591.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_DIAGONAL_L400xW25xH400_01_B.uasset'
+[2022.03.21-09.37.32:622][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_GROUND_L400xW25xH400_01_FD269B4F4BC1435CECC16E9D15D365A2.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_GROUND_L400xW25xH400_01_A.uasset'
+[2022.03.21-09.37.32:811][344]LogSavePackage: Moving '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Saved/GB_WALL_ROOF_L400xW25xH400_01_A5BAAE9C94C7C1AAAE3A892A1DF3E7EC2.tmp' to '../../../../Game2-int/LOUSTALOT LEONARD/UE4_No_Siris-20220318T143145Z-001/UE4_No_Siris/WS_LevelBuilding_NOsiris/Content/Game/Asset/1_GA/GM_SMesh/GB_WALL_ROOF_L400xW25xH400_01_A.uasset'
+[2022.03.21-09.37.32:960][344]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ROOF_L400xW25xH400_01_A.GB_WALL_ROOF_L400xW25xH400_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_GROUND_L400xW25xH400_01_A.GB_WALL_GROUND_L400xW25xH400_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_DIAGONAL_L400xW25xH400_01_B.GB_WALL_DIAGONAL_L400xW25xH400_01_B
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_DIAGONAL_L400xW25xH400_01_A.GB_WALL_DIAGONAL_L400xW25xH400_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B.GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_B
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A.GB_WALL_ANGLE-OCTOGONE-SHORT_L800xW25xH400_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B.GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_B
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A.GB_WALL_ANGLE-OCTOGONE_L800xW25xH400_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_STAIRS_STRAIGHT_L400xW400xH200_01_A.GB_STAIRS_STRAIGHT_L400xW400xH200_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_STAIRS_STRAIGHT_L350xW400xH200_01_A.GB_STAIRS_STRAIGHT_L350xW400xH200_01_A
+[2022.03.21-09.37.32:960][344]LogContentValidation: Display: Validating StaticMesh /Game/Game/Asset/1_GA/GM_SMesh/GB_FLOOR_TATAMI_L400xW200xH25_01_A.GB_FLOOR_TATAMI_L400xW200xH25_01_A
